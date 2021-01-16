@@ -76,12 +76,10 @@
           }
         },
         "test": {
-          "builder": "@angular-devkit/build-angular:karma",
+          "builder": "@angular-builders/jest:run",
           "options": {
-            "main": "src/test.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
-            "karmaConfig": "karma.conf.js",
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -120,5 +118,8 @@
       }
     }
   },
-  "defaultProject": "SnapShotTest"
+  "defaultProject": "SnapShotTest",
+  "cli": {
+    "analytics": "768c4fec-8bb7-4d0e-9e45-76dfd6c03c76"
+  }
 }
