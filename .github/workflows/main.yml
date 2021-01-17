@@ -1,0 +1,10 @@
+name: jest-snapshot-test-actions
+on: [push] #イベントトリガータイミング
+jobs:
+  run-test:
+    runs-on: ubuntu-latest #CIを回す環境
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2.1.4 #nodeの環境をセットアップ
+      - run: npm install
+      - run: npm test
