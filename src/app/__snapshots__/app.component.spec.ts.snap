@@ -5,7 +5,7 @@ exports[`AppComponent snap shot test 1`] = `
   id="root2"
 >
   <h2>
-    snap shot test!!!
+    snap shot test!!! fail version!!
   </h2>
 </div>
 `;
