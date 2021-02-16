@@ -13,6 +13,12 @@
     "collectCoverage": true,
     "testResultsProcessor": "jest-sonar-reporter"
   },
+  "jestSonar": {
+    "sonar56x": true,
+    "reportPath": "reports",
+    "reportFile": "test-reporter.xml",
+    "indent": 4
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~11.0.9",
