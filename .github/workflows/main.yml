@@ -16,7 +16,7 @@ jobs:
         run: docker build -t snapshot-test:latest .
       -
         name: run snapshot -test
-        run: docker run -v `pwd`/:/usr/src/app/ snapshot-test:latest
+        run: docker run snapshot-test:latest
   sonarcloud:
     name: SonarCloud
     runs-on: ubuntu-latest
