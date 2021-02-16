@@ -10,7 +10,7 @@
     "e2e": "ng e2e"
   },
   "jest": {
-    "collectCoverag": true,
+    "collectCoverage": true,
     "testResultsProcessor": "jest-sonar-reporter"
   },
   "private": true,

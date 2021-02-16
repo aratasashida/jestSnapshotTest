@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
   <file path="/Users/art/study/SnapShotTest/test/app.component.spec.ts">
-    <testCase name="AppComponent should create the app" duration="94"/>
-    <testCase name="AppComponent should have as title &apos;SnapShotTest&apos;" duration="24"/>
-    <testCase name="AppComponent snap shot test" duration="27"/>
+    <testCase name="AppComponent should create the app" duration="79"/>
+    <testCase name="AppComponent should have as title &apos;SnapShotTest&apos;" duration="17"/>
+    <testCase name="AppComponent snap shot test" duration="20"/>
   </file>
 </testExecutions>
